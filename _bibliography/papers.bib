@@ -24,16 +24,14 @@
   abbr={WACV},
   title={StyleMC: Multi-Channel Based Fast Text-Guided Image Generation and Manipulation},
   author={Umut Kocasari and Alara Dirik and Mert Tiftikci and Pinar Yanardag},
-  abstract={Recent research has shown great potential for finding interpretable directions in the latent spaces of pre-trained Generative Adversarial Networks (GANs). These directions provide controllable generation and support a wide range of semantic editing operations such as zoom or rotation. The discovery of such directions is often performed in a supervised or semi-supervised fashion and requires manual annotations,  limiting their applications in practice. In comparison, unsupervised discovery enables finding subtle directions a priori hard to recognize. In this work, we propose a contrastive-learning-based approach for discovering semantic directions in the latent space of pretrained GANs in a self-supervised manner. Our approach finds semantically meaningful dimensions compatible with state-of-the-art methods.},
+  abstract={Pre-trained GANs have shown great potential for interpretable directions in the latent space. The discovery of such directions is often done in a supervised or self-supervised manner and requires manual annotations which limits their application in practice. On the other hand, unsupervised approaches provide a way to discover interpretable directions without any supervision, but no fine-grained attribute can be discovered. Recent work such as StyleCLIP aims to overcome this limitation by leveraging the power of CLIP, a joint representational model for text and images, for text-driven image manipulation. While promising, these methods take several hours of pre-processing or training time, and require multiple text prompts. In this work, we propose a fast and efficient method for text-guided image generation and manipulation by leveraging the power of StyleGAN2 and CLIP. Our method uses a CLIP-based loss and an identity loss to manipulate images via user-supplied text prompts without changing any of the irrelevant attributes. Unlike previous work, our method requires only 12 seconds of optimization per text prompt and can be used with any pre-trained StyleGAN2 model. We demonstrate the effectiveness of our method with extensive results and comparisons to state-of-the-art approaches.},
   booktitle={Winter Applications of Computer Vision (WACV)},
   journal={Winter Applications of Computer Vision},
   pages={1365--1374},
   year={2021},
   month={July},
-  pdf={https://arxiv.org/abs/2104.00820},
-  code={https://github.com/catlab-team/latentclr},
-  website={/latentclr},
   teaser={teaser_cat_stylemc.png},
+  comingsoon={true},
   selected={true}
 }
  
@@ -53,5 +51,3 @@
   website={/latentclr},
   selected={true}
 }
-
-
