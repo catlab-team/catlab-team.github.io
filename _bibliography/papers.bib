@@ -88,4 +88,40 @@
   selected={true}
 }
  
+
+
+@article{fairstyle,
+  abbr={Pre-print},
+  title={FairStyle: Debiasing StyleGAN2 with Style Channel Manipulations},
+  author={Cemre Efe Karakas* and Alara Dirik* and Eylul Yalcinkaya and Pinar Yanardag},
+  abstract={Recent advances in generative adversarial networks have shown that it is possible to generate high-resolution and hyperrealistic images. However, the images produced by GANs are only as fair and representative as the datasets on which they are trained. In this paper, we propose a method for directly modifying a pre-trained StyleGAN2 model that can be used to generate a balanced set of images with respect to one (e.g., eyeglasses) or more attributes (e.g.,  gender and eyeglasses). Our method takes advantage of the style space of the StyleGAN2 model to perform disentangled control of the target attributes to be debiased. Our method does not require training additional models and directly debiases the GAN model, paving the way for its use in various downstream applications. Our experiments show that our method successfully debiases the GAN model within a few minutes without compromising the quality of the generated images.  },
+  booktitle={Pre-print},
+  journal={Pre-print},
+  pages={1365--1374},
+  year={2022},
+  month={January},
+  teaser={teaser_fairstyle.png},
+  code={https://github.com/catlab-team/fairstyle},
+  pdf={https://arxiv.org/abs/XXX},
+  website={/fairstyle},
+  preprint={true},
+}
  
+
+@article{latent3D,
+  abbr={Pre-print},
+  title={Text and Image Guided 3D Avatar Generation and Manipulation},
+  author={Zehranaz Canfes* and Furkan Atasoy* and Alara Dirik* and Pinar Yanardag},
+  abstract={The manipulation of latent space has recently become an interesting topic in the field of generative models. Recent research shows that latent directions can be used to manipulate images towards certain attributes. However, controlling the generation process of 3D generative models remains a challenge. In this work, we propose a novel 3D manipulation method that can manipulate both the shape and texture of the model using text or image-based prompts such as 'a young face' or  'a surprised face'. We leverage the power of  Contrastive Language-Image Pre-training (CLIP) model and a pre-trained 3D GAN model designed to generate face avatars, and create a fully differentiable rendering pipeline to manipulate meshes. More specifically, our method takes an input latent code and modifies it such that the target attribute specified by a text or image prompt is present or enhanced, while leaving other attributes largely unaffected. Our method requires only 5 minutes per manipulation, and we demonstrate the effectiveness of our approach with extensive results and comparisons. },
+  booktitle={Pre-print},
+  journal={Pre-print},
+  pages={1365--1374},
+  year={2022},
+  month={January},
+  teaser={teaser_latent3D.jpeg},
+  code={https://github.com/catlab-team/latent3D},
+  pdf={https://arxiv.org/abs/XXX},
+  website={/latent3D},
+  preprint={true},
+}
+
