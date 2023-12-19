@@ -2,7 +2,7 @@
 layout: page
 permalink: /publications/
 title: CATLAB
-description: <i><b>C</b>reative <b>A</b>I <b>T</b>echnologies research lab was hosted at <a href="https://cmpe.boun.edu.tr">Bogazici University, Department of Computer Engineering</a> from 2021-2023. </i> <b>We moved to Virginia Tech, Department of Computer Science in Fall 2023 as <a href='gemlab-vt.github.io'>GEMLAB</a>! </b>
+description: <i><b>C</b>reative <b>A</b>I <b>T</b>echnologies research lab was hosted at <a href="https://cmpe.boun.edu.tr">Bogazici University, Department of Computer Engineering</a> from 2021-2023. </i> <b>We moved to Virginia Tech, Department of Computer Science in Fall 2023 as <a href='gemlab-vt.github.io'>GEMLAB</a>. </b>
 years: [2021]
 nav: true
 ---
